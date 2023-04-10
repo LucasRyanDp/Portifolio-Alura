@@ -20,6 +20,6 @@
 
 ### Joana Santos
 
-### Linkedin: https://www.linkedin.com/school/aluracursos/
+### Figma: https://www.figma.com/file/NrzJacC887svMVfF9oC2jM/Portfolio-Projeto-2?node-id=0-1
 
 ```
