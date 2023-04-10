@@ -1,0 +1,126 @@
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria: #3A6130;
+    --cor-terciaria: #60A150;
+    --cor-neutra: #C7E8CA;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-neutra);
+    color: var(--cor-terciaria);
+}
+.cabecalho{
+    display: flex;
+    padding: 2% 0% 0% 10%;
+    gap: 40px;
+}
+
+.cabecalho_link{
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+.caixa{
+    padding: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.caixa__conteudo{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.titulo-destaque{
+    color: var(--cor-secundaria);
+}
+
+.conteudo__titulo{
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+}
+.conteudo__paragrafo{
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.caixa__imagem{
+    height: 40%;
+    width: 35%;
+}
+
+a{
+    color: var(--cor-terciaria);
+}
+
+.subtitulo_caixa{
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    text-align: center;
+    width: 50%;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 10px 0;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    text-decoration: none;
+    border: 2px solid var(--cor-secundaria);
+}
+
+.botao:hover{
+    background-color: #ade4b1;
+}
+
+.rodape{
+    color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9375rem;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+
+    .cabecalho{
+        padding: 10%;
+        justify-content: center;
+    }
+
+    .caixa {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .caixa__conteudo{
+        width: auto;
+    }
+}
