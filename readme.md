@@ -1,6 +1,6 @@
 #Olá, Seja bem vindo ao meu projeto de portfólio.
 
-![image](https://github.com/LucasRyanDp/Portifolio-Alura/blob/master/Assets-aula2-curso3-html-e-css-main/assets/1664026712932.jpg)
+![image](https://github.com/LucasRyanDp/Portifolio-Alura/blob/master/imagem_2023-04-10_162654377.png)
 
 ## Ferramentas utilizadas:
 
